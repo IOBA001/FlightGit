@@ -1,0 +1,6 @@
+@Flight_Git_Works_HostAddress = http://localhost:5103
+
+GET {{Flight_Git_Works_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
