@@ -1,6 +1,8 @@
-﻿namespace Flight_Git_Works.Repository
+﻿using Flight_Git_Works.IRepository;
+
+namespace Flight_Git_Works.Repository
 {
-    public class FlightReservationSystemRepository
+    public class FlightReservationSystemRepository : IFlightReservationSystemRepository
     {
     }
 }
