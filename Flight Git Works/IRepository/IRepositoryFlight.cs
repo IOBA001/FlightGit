@@ -4,7 +4,8 @@ namespace Flight_Git_Works.IRepository
 {
     public interface IRepositoryFlight
     {
-        bool SearchFlights(string departureCity, string arrivalCity, DateTime departureDate);
-        bool BookTicket(Flight flight, string passengerName);
+        Task<Flight> AddFlight(Flight flight);    
+        Task<List<Flight>> GetAllFlights();
+        Task DeleteFlight(int Id);
     }
 }
